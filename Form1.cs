@@ -18,7 +18,7 @@ namespace PasswordGenerator
 
         private void passwordGenerator(int passwordLength)
         {
-            string allCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#%$^&";
+            string allCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz!@#%$^&?:/\{}+-§";
             String randomPassword = "";
 
             for(int i=0; i < passwordLength; i++)
